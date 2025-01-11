@@ -1,0 +1,225 @@
+.cs-ul{ 
+    margin: auto;
+}
+.cs-ul>li{
+    margin: 5px 30px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.cs-btn-navbar{
+    padding: 5px 40px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 0px;
+}
+.cs-nav{
+    color: #ffff;
+}
+.firstbanner{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.firstbanner>.first-content>h1{
+    font-weight: 700;
+    font-size: 80px;
+    color: rgba(0, 0, 0, 1);
+
+}
+.firstbanner>.first-content>p{
+    font-weight: 400;
+    font-size: 32px;
+}
+
+/* cards section */
+
+.cs-cards{
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+}
+.card1>div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.card1>div>h5{
+    font-weight: 400;
+    font-size: 28px;
+}
+.card2>div>h5{
+    font-weight: 400;
+    font-size: 28px;
+}
+.card3>div>h5{
+    font-weight: 400;
+    font-size: 28px;
+}
+.card1>p{
+    font-weight: 400;
+    font-size: 20px;
+}
+.card2>p{
+    font-weight: 400;
+    font-size: 20px;
+}
+.card3>p{
+    font-weight: 400;
+    font-size: 20px;
+}
+.card2>div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.card3>div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.card1{
+    border-radius: 10px;
+    border: 2px solid;
+    margin: 0px 25px;
+    padding: 4px;
+}
+.card2{
+    border-radius: 10px;
+    border: 2px solid;
+    margin: 0px 25px;
+    padding: 4px;
+}
+.card3{
+    border-radius: 10px;
+    border: 2px solid;
+    margin: 0px 25px;
+    padding: 4px;
+}
+/* second banner section */
+.features{
+    text-align: center;
+}
+
+.cs-cards-six>img{
+    width: 30%;
+    height: 20%;
+    margin: 10px;
+}
+.cs-cards-six{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* signup section */
+.signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.signup>.input{
+    display: flex;
+    margin-left: 10%;
+    width: 30%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.signup>.content{
+    font-weight: 700;
+    font-size: 44px;
+    width: 50%;
+
+}
+.signup>.input>input{
+    color: transparent;
+    width: 100%;
+    padding: 20px 4px;
+}
+.signup>.input>a{
+    border: 2px solid;
+    color: white;
+    background-color: #000;
+    text-decoration: none;
+    text-align: center;
+    padding: 4px 30px;
+    position: absolute;
+    margin-right: 10px;
+}
+@media only screen and (max-width:990px){
+    .firstbanner{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+    }
+    .firstbanner >.img{
+        display: flex;  
+        justify-content: center;
+    }
+    .firstbanner>.first-content>h1{
+        text-align: center;
+        margin: auto;
+        font-weight: 500;
+        font-size: 50px;
+    }
+    .cs-cards{
+        display: flex;
+        margin-top: 40px;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+        margin: 30px auto;
+    }
+    .card1{
+        width: 100%;
+        margin: 10px auto;
+    }
+    .card2{
+        width: 100%;
+        margin: 10px auto;
+    }
+    .card3{
+        width: 100%;
+        margin: 10px auto;
+    }
+    .secondbanner{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+    }
+    .secondbanner>.secondcontent>h1{
+        text-align: center;
+        margin: auto;
+        font-weight: 700;
+        font-size: 50px;
+    }
+    .signup{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .signup>.input{
+        display: flex;
+        margin-left: 10%;
+        width: 60%;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+}
+@media only screen and (max-width:550px){
+    .card1{
+        width: 100vw;
+        margin: 10px auto;
+    }
+
+}
