@@ -19,7 +19,11 @@
     display: flex;
     align-items: center;
     margin-top: 30px;
+    overflow: hidden;
 }
+/* .firstbanner>.image>img{
+    width: 100%;
+} */
 .firstbanner>.first-content>h1{
     font-weight: 700;
     font-size: 80px;
@@ -37,6 +41,7 @@
     display: flex;
     margin-top: 40px;
     width: 100%;
+    overflow: hidden;
 }
 .card1>div{
     display: flex;
@@ -99,6 +104,12 @@
 .features{
     text-align: center;
 }
+.secondbanner{
+    overflow: hidden;
+}
+.secondbanner>.secondimage>img{
+    width: 100%;
+}
 
 .cs-cards-six>img{
     width: 30%;
@@ -109,6 +120,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+.secondbanner>.secondcontent{
+    width: 100%;
 }
 /* signup section */
 .signup{
@@ -159,11 +173,18 @@
         display: flex;  
         justify-content: center;
     }
+    .firstbanner>.image>img{
+        width: 100%;
+    }
     .firstbanner>.first-content>h1{
         text-align: center;
         margin: auto;
         font-weight: 500;
         font-size: 50px;
+    }
+    .cs-cards-six{
+        display: flex;
+        flex-wrap: wrap;
     }
     .cs-cards{
         display: flex;
@@ -191,8 +212,9 @@
         display: flex;
         flex-direction:  column;
     }
-
-
+    .secondbanner>.secondcontent{
+        width: 100%;
+    }
     .secondbanner>.secondcontent>h1{
         text-align: center;
         margin: auto;
@@ -214,12 +236,36 @@
         justify-content: flex-end;
         align-items: center;
     }
+    .signup>.content{
+        font-weight: 700;
+        font-size: 44px;
+        width: 100%;
+        text-align: center;
+    }
 
 }
 @media only screen and (max-width:550px){
     .card1{
         width: 100vw;
         margin: 10px auto;
+    }
+    .signup>.input>a{
+        border: 2px solid;
+        color: white;
+        background-color: #000;
+        text-decoration: none;
+        text-align: center;
+        padding: 4px 30px;
+        margin-right: 10px;
+        position: absolute;
+    }
+    .signup>.input{
+        display: flex;
+        margin-left: 10%;
+        width: 100%;
+        justify-content: flex-end;
+        align-items: center;
+        flex-wrap: wrap;
     }
 
 }
