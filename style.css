@@ -172,6 +172,7 @@
     .firstbanner >.img{
         display: flex;  
         justify-content: center;
+        width: 100%;
     }
     .firstbanner>.image>img{
         width: 100%;
@@ -261,11 +262,14 @@
     }
     .signup>.input{
         display: flex;
-        margin-left: 10%;
         width: 100%;
         justify-content: flex-end;
         align-items: center;
         flex-wrap: wrap;
+        margin: auto;
     }
-
+    .cs-cards-six>img{
+        width: 100%;
+        margin: 10px;
+    }
 }
